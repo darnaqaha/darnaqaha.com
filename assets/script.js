@@ -1,5 +1,10 @@
-var langSwitcher = function(e) {
-	if (e.value == "en") {
+var langSet = function(e) {
+	localStorage.setItem('dnq_lang', e.value);
+}
+
+var langSwitcher = function() {
+	e = localStorage.getItem("dnq_lang");
+	if (e == "en") {
 		Array.prototype.slice.call(document.querySelectorAll('[lang="en"]'))
 			.forEach(function(element) {
 				element.classList.remove('hidden');
@@ -12,7 +17,7 @@ var langSwitcher = function(e) {
 			.forEach(function(element) {
 				element.classList.add('hidden');
 			});
-	} else if (e.value == "fr") {
+	} else if (e == "fr") {
 		Array.prototype.slice.call(document.querySelectorAll('[lang="en"]'))
 			.forEach(function(element) {
 				element.classList.add('hidden');
@@ -25,7 +30,7 @@ var langSwitcher = function(e) {
 			.forEach(function(element) {
 				element.classList.add('hidden');
 			});
-	} else if (e.value == "ar") {
+	} else  {
 		Array.prototype.slice.call(document.querySelectorAll('[lang="en"]'))
 			.forEach(function(element) {
 				element.classList.add('hidden');
