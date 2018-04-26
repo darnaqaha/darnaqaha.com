@@ -44,5 +44,6 @@ var langSwitcher = function() {
 				element.classList.remove('hidden');
 			});
 	}
+	console.log("Language picked!");
 }
 document.addEventListener('DOMContentLoaded', langSwitcher(), false);
