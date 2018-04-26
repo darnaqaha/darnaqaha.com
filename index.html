@@ -39,11 +39,9 @@
 	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<select name="lang" onchange="langSet(this);langSwitcher();">
-		<option value="en">English</option>
-		<option value="fr">French</option>
-		<option value="ar" selected>Arabic</option>
-	</select>
+	<a class="lang" value="en" onclick="langSet(this);langSwitcher();">en</a>
+	<a class="lang" value="fr" onclick="langSet(this);langSwitcher();">fr</a>
+	<a class="lang" value="ar" onclick="langSet(this);langSwitcher();">ar</a>
 	<br>
 	<br>
 	<p lang="en" class="hidden">english</p>

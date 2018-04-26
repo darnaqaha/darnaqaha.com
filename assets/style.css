@@ -1,3 +1,7 @@
 .hidden {
 	display: none;
 }
+
+.lang {
+	text-transform: capitalize;
+}
