@@ -45,3 +45,4 @@ var langSwitcher = function() {
 			});
 	}
 }
+document.addEventListener('DOMContentLoaded', langSwitcher(), false);
