@@ -1,5 +1,6 @@
 var langSet = function(e) {
 	localStorage.setItem('dnq_lang', e.innerText);
+	console.log("New language picked: " + e.innerText);
 }
 
 var langSwitcher = function() {
