@@ -43,10 +43,11 @@ header .switchers, header .nav{
 }
 header .switchers .lang {
 	padding: 15px;
-	border-radius: : 50%;
+	border-radius: 50%;
 	background-color: #fff;
 	font-size: 25px;
 	line-height: var(--header-height);
+	cursor: pointer;
 }
 .logo-scrolled {
 	height: var(--header-height);
