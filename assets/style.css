@@ -23,7 +23,6 @@ header img {
     width: 250px;
     height: 300px;
     position: absolute;
-    margin-left: 80px;
     transition: 0.2s;
 }
 header ul {
