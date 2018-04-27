@@ -4,13 +4,14 @@ html {
 	--dirty-pink: #E5CCCC;
 	--dark-green: #343D17;
 	--text-block: #707070;
+	--header-height: 100px;
 }
 body {
 	margin: 0px;
 	color: var(--text-block);
 }
 header {
-	height: 100px;
+	height: var(--header-height);
 	position: fixed;
 	background-color: var(--dirty-pink);
 	width: 100%;
@@ -26,7 +27,7 @@ header img {
 header ul {
 	list-style-type: none;
     padding-left: 0px;
-    line-height: 100px;
+    line-height: var(--header-height);
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 20px;
@@ -42,10 +43,11 @@ header .switchers, header .nav{
 }
 header .switchers .lang {
 	padding: 15px;
-	border-right: 50%;
+	border-radius: : 50%;
 	background-color: #fff;
 	font-size: 25px;
+	line-height: var(--header-height);
 }
 .logo-scrolled {
-	height: 100px;
+	height: var(--header-height);
 }
