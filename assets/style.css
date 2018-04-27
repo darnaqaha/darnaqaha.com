@@ -14,16 +14,33 @@ header {
 	position: sticky;
 	background-color: var(--dirty-pink);
 }
+header img {
+	display: block;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    margin-left: 80px;
+}
 header ul {
 	list-style-type: none;
     padding-left: 0px;
     line-height: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 20px;
 }
 header ul li {
 	display: inline-block;
 	margin-left: 20px;
 	padding-left: 40px;
 	padding-right: 40px;
+}
+header .switchers, header .nav{
+	float: right;
+}
+header .switchers .lang {
+	padding: 15px;
+	border-right: 50%;
+	background-color: #fff;
+	font-size: 25px;
 }
