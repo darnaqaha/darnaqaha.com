@@ -11,8 +11,9 @@ body {
 }
 header {
 	height: 100px;
-	position: sticky;
+	position: fixed;
 	background-color: var(--dirty-pink);
+	width: 100%;
 }
 header img {
 	display: block;
@@ -20,6 +21,7 @@ header img {
     height: 300px;
     position: absolute;
     margin-left: 80px;
+    transition: 0.2s;
 }
 header ul {
 	list-style-type: none;
@@ -43,4 +45,7 @@ header .switchers .lang {
 	border-right: 50%;
 	background-color: #fff;
 	font-size: 25px;
+}
+.logo-scrolled {
+	height: 100px;
 }
