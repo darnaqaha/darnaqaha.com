@@ -39,9 +39,32 @@
 	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-	<a class="lang" onclick="langSet(this);langSwitcher();">En</a>
-	<a class="lang" onclick="langSet(this);langSwitcher();">Fr</a>
-	<a class="lang" onclick="langSet(this);langSwitcher();">Ar</a>
+	<header>
+		<img src="assets/img/logo.png">
+		<div class="nav">
+			<ul lang="en">
+				<li>About</li>
+				<li>Services and Policy</li>
+				<li>Contact</li>
+			</ul>
+			<ul lang="fr">
+				<li>About</li>
+				<li>Services and Policy</li>
+				<li>Contact</li>
+			</ul>
+			<ul lang="ar">
+				<li>About</li>
+				<li>Services and Policy</li>
+				<li>Contact</li>
+			</ul>
+		</div>
+		<div class="switchers">
+			<a class="lang" onclick="langSet(this);langSwitcher();">En</a>
+			<a class="lang" onclick="langSet(this);langSwitcher();">Fr</a>
+			<a class="lang" onclick="langSet(this);langSwitcher();">Ar</a>
+		</div>
+	</header>
+
 	<br>
 	<br>
 	<p lang="en" class="hidden">english</p>

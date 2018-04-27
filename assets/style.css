@@ -1,7 +1,17 @@
-.hidden {
-	display: none;
+.hidden {display: none;}
+html {
+	--green: #969D84;
+	--dirty-pink: #E5CCCC;
+	--dark-green: #343D17;
+	--text-block: #707070;
 }
+body {
+	margin: 0px;
+	color: var(--text-block);
 
-.lang {
-	
+}
+header {
+	height: 100px;
+	position: sticky;
+	background-color: var(--dirty-pink);
 }
