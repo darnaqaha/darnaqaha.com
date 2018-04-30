@@ -124,3 +124,8 @@ header .social:hover {
 .contact-form input[type=submit] {
 	width: 420px;
 }
+
+.contact-form textarea {
+	resize: vertical;
+	min-height: 50px;
+}
