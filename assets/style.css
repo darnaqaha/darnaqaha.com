@@ -83,3 +83,42 @@ header .social:hover {
     height: calc(100vh - 100px);
     padding-top: 100px;
 }
+
+.contact-form {
+	width: 420px;
+	max-width: 500px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: var(--dark-green);
+	display: inline-block;
+	float: right;
+	margin-right: 80px;
+	margin-top: 40px;
+	color: white;
+}
+
+.contact-form input, .contact-form textarea, .contact-form select {
+	display: inline;
+    width: 400px;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-width: 0px;
+    color: var(--text-block);
+    font-family: 'Arsenal', sans-serif;
+}
+
+.contact-form select {
+	width: 150px;
+}
+
+.contact-form label {
+	display: block;
+}
+
+.contact-form input[type=submit] {
+	width: 420px;
+}

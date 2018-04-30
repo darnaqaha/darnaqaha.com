@@ -69,7 +69,27 @@
 	</header>
 	<section id="hero">
 		<div class="contact-form" id="contact-us">
-			
+			<h1>Registration</h1>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" name="name" placeholder="Name">
+				<label for="age">Age</label>
+				<input type="number" name="age" placeholder="Age">
+				<label for="telephone">Telephone</label>
+				<input type="tel" name="telephone" placeholder="Phone number">
+				<label for="data-start">Reservation Date start (dd/mm/yyyy - 23/05/2019)</label>
+				<input type="text" name="data-start" placeholder="Reservation Date start">
+				<label for="data-end">Reservation Date end (dd/mm/yyyy - 23/05/2019)</label>
+				<input type="text" name="data-end" placeholder="Reservation Date end">
+				<label for="message">Inquiry</label>
+				<textarea name="message" placeholder="Inquiry"></textarea>
+				<label for="marketing" style="display: inline-block;line-height: 57px;">Are you a Journalist or a sale?</label>
+				<select name="marketing" style="display: inline-block;float: right;">
+						<option>Yes</option>
+						<option>No</option>
+				</select>
+				<input type="submit" value="Send">
+			</form>
 		</div>
 	</section>
 
