@@ -74,7 +74,9 @@ header .social:hover {
 	color: var(--dark-green);
 }
 .logo-scrolled {
-	height: var(--header-height);
+	height: calc(var(--header-height) - 10px);
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 #hero {
 	background-image: url(http://via.placeholder.com/1920x1080);
