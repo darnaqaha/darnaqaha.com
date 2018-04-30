@@ -59,3 +59,9 @@ document.addEventListener("scroll", function() {
 		document.getElementById('header-logo').classList.remove('logo-scrolled');
 	}
 } );
+
+// Arabic font to all Arabic texts
+Array.prototype.slice.call(document.querySelectorAll('[lang="ar"]'))
+	.forEach(function(element) {
+		element.classList.add('arabic');
+	});
