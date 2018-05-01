@@ -171,6 +171,9 @@ header .social:hover {
     margin-bottom: 35px;
 }
 
+.section p {
+    font-size: 20px;
+}
 .grid-2-outer {
 	width: 100%;
 	display: grid;
@@ -188,7 +191,7 @@ header .social:hover {
 footer {
 	color: #fff;
 	text-align: center;
-	margin-top: 140px;
+	margin-top: 180px;
 	font-size: 25px;
 }
 
