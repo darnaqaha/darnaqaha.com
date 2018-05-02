@@ -70,6 +70,7 @@ header .switchers .lang {
 	line-height: var(--header-height);
 	cursor: pointer;
 	letter-spacing: 3px;
+	vertical-align: bottom;
 }
 header .social {
 	margin-left: 20px;
@@ -80,13 +81,28 @@ header .social {
 header .social:hover {
 	color: var(--dark-green);
 }
+header .mob-nav-btn {
+	display: none;
+	font-size: 40px;
+    line-height: 100px;
+    margin-left: 40px;
+}
+header .mob-nav {
+	position: absolute;
+    z-index: 3;
+    background-color: var(--green);
+    width: 100%;
+    left: 0px;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: 0.2s;
+}
 .logo-scrolled {
 	height: calc(var(--header-height) - 10px);
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 #hero {
-	background-image: url(img/home-hero.jpg);
     background-position: center;
     background-size: cover;
     height: calc(100vh - 100px);
@@ -244,4 +260,34 @@ footer a:hover {
 }
 .copyright p {
 	margin: 0px;
+}
+
+@media (max-width: 1050px) {
+	.grid-2-outer {
+		grid-template-columns: 1fr;
+	    grid-template-rows: 1fr 1fr;
+	    grid-row-gap: 40px;
+	}
+	#fb-feed {
+		order: 1;
+	}
+	#home-1 {
+		order: 2;
+	}
+	header img {
+		height: calc(var(--header-height) - 10px);
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	}
+
+	header .social {
+		display: none;
+	}
+
+	header .mob-nav-btn {
+		display: inline-block;
+	}
+	header .nav {
+		display: none;
+	}
 }
