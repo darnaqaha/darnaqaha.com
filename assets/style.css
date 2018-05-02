@@ -270,6 +270,7 @@ footer a:hover {
 	}
 	#fb-feed {
 		order: 1;
+		width: 320px;
 	}
 	#home-1 {
 		order: 2;
