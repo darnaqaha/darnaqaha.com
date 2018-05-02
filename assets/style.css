@@ -291,4 +291,11 @@ footer a:hover {
 	header .nav {
 		display: none;
 	}
+	.contact-form {
+	    padding-left: calc(50% - 210px);
+	    margin-top: 0px;
+	    margin-right: 0px;
+	    padding-right: calc(50% - 210px);
+	    margin-bottom: 80px;
+	}
 }
