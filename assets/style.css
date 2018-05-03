@@ -125,7 +125,6 @@ header .mob-nav {
 	margin-right: 80px;
 	margin-top: 40px;
 	color: white;
-	font-size: 18px;
 }
 
 .contact-form input, .contact-form textarea, .contact-form select {
@@ -138,6 +137,7 @@ header .mob-nav {
     border-width: 0px;
     color: var(--text-block);
     font-family: 'Arsenal', sans-serif;
+    max-width: 100%;
 }
 
 .contact-form select {
@@ -261,7 +261,12 @@ footer a:hover {
 .copyright p {
 	margin: 0px;
 }
-
+li {
+	list-style-type: none;
+}
+ul {
+	padding-left: 0px;
+}
 @media (max-width: 1050px) {
 	.grid-2-outer {
 		grid-template-columns: 1fr;
@@ -297,5 +302,9 @@ footer a:hover {
 	    margin-right: 0px;
 	    padding-right: calc(50% - 210px);
 	    margin-bottom: 80px;
+	}
+	form {
+		width: 260px;
+		margin: 0 auto;
 	}
 }
