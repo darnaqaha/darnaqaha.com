@@ -263,9 +263,23 @@ footer a:hover {
 }
 li {
 	list-style-type: none;
+	font-size: 20px;
 }
 ul {
 	padding-left: 0px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 20px;
+}
+@media (max-width: 1230px) {
+	header img {
+		height: calc(var(--header-height) - 10px);
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	}
 }
 @media (max-width: 1050px) {
 	.grid-2-outer {
