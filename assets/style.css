@@ -274,6 +274,9 @@ table, th, td {
     padding: 10px;
     font-size: 20px;
 }
+#fb-feed-sml {
+	display: none;
+}
 @media (max-width: 1230px) {
 	header img {
 		height: calc(var(--header-height) - 10px);
@@ -283,7 +286,7 @@ table, th, td {
 }
 @media (max-width: 1050px) {
 	.grid-2-outer {
-		grid-template-columns: 1fr;
+		grid-template-columns: 100%;
 	    grid-template-rows: 1fr 1fr;
 	    grid-row-gap: 40px;
 	}
@@ -318,6 +321,14 @@ table, th, td {
 	}
 	#hero {
 		height: auto;
+	}
+}
+@media (max-width: 550px) {
+	#fb-feed-lrg {
+		display: none;
+	}
+	#fb-feed-sml {
+		display: block;
 	}
 }
 @media (max-width: 500px) {
