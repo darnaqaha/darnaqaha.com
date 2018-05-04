@@ -24,9 +24,9 @@ header {
 	height: var(--header-height);
 	position: fixed;
 	background-color: var(--dirty-pink);
-	width: calc(100% - 20%);
-    padding-left: 10%;
-    padding-right: 10%;
+	width: calc(100% - 16%);
+    padding-left: 8%;
+    padding-right: 8%;
     font-weight: bold;
 }
 header img {
@@ -65,10 +65,10 @@ header .switchers {
 	margin-left: 30px;
 }
 header .switchers .lang {
-	padding: 15px;
+	padding: 10px;
 	border-radius: 50%;
 	background-color: #fff;
-	font-size: 25px;
+	font-size: 15px;
 	line-height: var(--header-height);
 	cursor: pointer;
 	letter-spacing: 3px;
@@ -87,7 +87,7 @@ header .mob-nav-btn {
 	display: none;
 	font-size: 40px;
     line-height: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 header .mob-nav {
 	position: absolute;
@@ -334,7 +334,6 @@ table, th, td {
 	}
 }
 @media (max-width: 500px) {
-
 	.contact-form {
 		width: 80%;
 	    padding-left: 10%;
