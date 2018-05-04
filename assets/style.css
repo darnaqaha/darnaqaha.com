@@ -289,7 +289,6 @@ table, th, td {
 	}
 	#fb-feed {
 		order: 1;
-		width: 320px;
 	}
 	#home-1 {
 		order: 2;
@@ -310,15 +309,34 @@ table, th, td {
 	header .nav {
 		display: none;
 	}
+}
+@media (max-width: 680px) {
 	.contact-form {
-	    padding-left: calc(50% - 210px);
-	    margin-top: 0px;
-	    margin-right: 0px;
-	    padding-right: calc(50% - 210px);
-	    margin-bottom: 80px;
-	}
-	form {
-		width: 260px;
 		margin: 0 auto;
+	    float: unset;
+	    display: block;
+	}
+	#hero {
+		height: auto;
+	}
+}
+@media (max-width: 500px) {
+
+	.contact-form {
+		width: 80%;
+	    padding-left: 10%;
+	    padding-right: 10%;
+	}
+	.contact-form input, .contact-form textarea, .contact-form select {
+		width: calc(100% - 20px);
+	}
+	.contact-form .narrow-input {
+		width: calc(100% - 20px);
+	}
+	.contact-form .narrow-text {
+		width: 100% !important;
+	}
+	.contact-form select {
+		width: 100% !important;
 	}
 }
