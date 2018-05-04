@@ -33,7 +33,7 @@ header img {
 	display: block;
     height: 300px;
     position: absolute;
-    transition: 0.2s;
+    transition: 1s;
 }
 header ul {
 	list-style-type: none;
