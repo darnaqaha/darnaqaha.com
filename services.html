@@ -42,7 +42,8 @@
 <body>
 	<header>
 		<a href="index.html"><img src="assets/img/logo.png" id="header-logo"></a>
-		<div class="mob-nav">
+		<div class="mob-nav" id="mobNav">
+			<span onclick="mobNavToggle();">X</span>
 			<ul lang="en">
 				<a href="about.html"><li>ABOUT</li></a>
 				<a href="services.html"><li>SERVICES AND POLICY</li></a>
@@ -64,7 +65,7 @@
 			<a class="lang" onclick="langSet(this);langSwitcher();">Fr</a>
 			<a class="lang" onclick="langSet(this);langSwitcher();">Ar</a>
 			<a class="social" href="https://www.facebook.com/Drmaielnaggarclinic/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-			<a class="mob-nav-btn"><i class="fas fa-bars"></i></a>
+			<a class="mob-nav-btn" onclick="mobNavToggle();"><i class="fas fa-bars"></i></a>
 		</div>
 		<div class="nav">
 			<ul lang="en">
