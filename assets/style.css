@@ -18,6 +18,7 @@ html {
 }
 .arabic {
 	font-family: 'Amiri', serif;
+	direction: rtl;
 }
 body {
 	margin: 0px;
