@@ -148,6 +148,7 @@ header .mob-nav {
 
 .contact-form select {
 	width: 150px;
+	-webkit-appearance: none;
 }
 
 .contact-form label {
