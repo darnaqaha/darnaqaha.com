@@ -375,9 +375,9 @@ header .mob-nav ul {
 	    float: unset;
 	    display: block;
 	}
-	#hero {
+	/*#hero {
 		height: auto;
-	}
+	}*/
 }
 @media (max-width: 550px) {
 	#fb-feed-lrg {
