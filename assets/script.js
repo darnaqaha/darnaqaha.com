@@ -65,3 +65,8 @@ Array.prototype.slice.call(document.querySelectorAll('[lang="ar"]'))
 	.forEach(function(element) {
 		element.classList.add('arabic');
 	});
+
+// Mobile nav open-close
+var mobNavToggle = function() {
+	document.getElementById('mobNav').classList.toggle('mob-nav-open');
+}

@@ -279,6 +279,10 @@ table, th, td {
 #fb-feed-sml {
 	display: none;
 }
+
+.mob-nav-open {
+	transform: translateX(0%);
+}
 @media (max-width: 1230px) {
 	header img {
 		height: calc(var(--header-height) - 10px);
