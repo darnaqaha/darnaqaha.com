@@ -43,6 +43,8 @@ header ul {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 20px;
+    max-width: unset;
+    text-align: unset;
 }
 header ul a li {
 	display: inline-block;
