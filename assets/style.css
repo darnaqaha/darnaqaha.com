@@ -32,6 +32,7 @@ header {
     padding-left: 8%;
     padding-right: 8%;
     font-weight: bold;
+    z-index: 2;
 }
 header img {
 	display: block;
@@ -83,6 +84,7 @@ header .switchers .lang img {
     display: inline-block;
     position: relative;
     vertical-align: bottom;
+    border-radius: 50%;
 }
 header .social {
 	margin-left: 20px;
