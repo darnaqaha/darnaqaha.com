@@ -337,7 +337,7 @@ header .mob-nav ul {
 	    padding-bottom: 5px;
 	}
 }
-@media (max-width: 1050px) {
+@media (max-width: 930px) {
 	.grid-2-outer {
 		grid-template-columns: 100%;
 	    grid-template-rows: 1fr 1fr;
