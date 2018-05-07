@@ -137,12 +137,13 @@ header .mob-nav {
     width: 400px;
     background-color: #fff;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     border-width: 0px;
     color: var(--text-block);
     font-family: 'Arsenal', sans-serif;
     max-width: 100%;
+    font-family: 15px;
 }
 
 .contact-form select {
