@@ -1,6 +1,6 @@
 // Setting localStorage of the selected language - used by the language switcher
 var langSet = function(e) {
-	localStorage.setItem('dnq_lang', e.innerText);
+	localStorage.setItem('dnq_lang', e);
 }
 
 // Function run on start or change of language to show the selected language - taken from the localStorage
