@@ -284,12 +284,23 @@ header .mob-nav-open {
 	transform: translateX(0%) ;
 }
 
+header .mob-nav li {
+	display: block;
+}
+header .mob-nav ul {
+	margin-top: 40px;
+}
+
 .mob-nav-btn {
 	cursor: pointer;
 }
 
 .mob-nav span {
 	cursor: pointer;
+	font-size: 30px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 @media (max-width: 1230px) {
 	header img {
