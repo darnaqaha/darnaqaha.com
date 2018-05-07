@@ -280,8 +280,8 @@ table, th, td {
 	display: none;
 }
 
-.mob-nav-open {
-	transform: translateX(0%);
+header .mob-nav-open {
+	transform: translateX(0%) ;
 }
 
 .mob-nav-btn {
