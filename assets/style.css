@@ -261,7 +261,7 @@ footer a {
 }
 
 footer a:hover {
-	color: var(--text-block);
+	color: var(--dark-green);
 }
 
 footer p {
