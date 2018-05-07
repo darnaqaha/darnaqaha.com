@@ -143,7 +143,7 @@ header .mob-nav {
     color: var(--text-block);
     font-family: 'Arsenal', sans-serif;
     max-width: 100%;
-    font-family: 15px;
+    font-size: 15px;
 }
 
 .contact-form select {
