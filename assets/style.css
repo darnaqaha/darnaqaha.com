@@ -276,6 +276,7 @@ footer p {
 }
 .copyright p {
 	margin: 0px;
+	font-size: 15px;
 }
 li {
 	list-style-type: disc;
