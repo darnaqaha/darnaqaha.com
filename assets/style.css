@@ -301,6 +301,7 @@ header .mob-nav ul {
     float: right;
     margin-right: 30px;
     margin-top: 20px;
+    padding: 10px;
 }
 @media (max-width: 1230px) {
 	header img {
