@@ -69,4 +69,6 @@ Array.prototype.slice.call(document.querySelectorAll('[lang="ar"]'))
 // Mobile nav open-close
 var mobNavToggle = function() {
 	document.getElementById('mobNav').classList.toggle('mob-nav-open');
+	document.getElementById('body').classList.toggle('scroll-lock');
+	document.getElementById('hero').classList.toggle('hidden');
 }
