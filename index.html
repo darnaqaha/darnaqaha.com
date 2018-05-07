@@ -55,9 +55,9 @@
 				<a href="services.html"><li>SERVICES AND POLICY</li></a>
 			</ul>
 			<ul lang="ar">
-				<a href="index.html"><li>HOME</li></a>
-				<a href="about.html"><li>ABOUT</li></a>
-				<a href="services.html"><li>SERVICES AND POLICY</li></a>
+				<a href="index.html"><li>الصفحة الرئيسية</li></a>
+				<a href="about.html"><li>حول</li></a>
+				<a href="services.html"><li>الخدمات والسياسة</li></a>
 			</ul>
 		</div>
 		<div class="switchers">
@@ -79,14 +79,14 @@
 				<a href="services.html"><li>SERVICES AND POLICY</li></a>
 			</ul>
 			<ul lang="ar">
-				<a href="index.html"><li>HOME</li></a>
-				<a href="about.html"><li>ABOUT</li></a>
-				<a href="services.html"><li>SERVICES AND POLICY</li></a>
+				<a href="index.html"><li>الصفحة الرئيسية</li></a>
+				<a href="about.html"><li>حول</li></a>
+				<a href="services.html"><li>الخدمات والسياسة</li></a>
 			</ul>
 		</div>
 	</header>
 	<section id="hero" style="background-image: url(assets/img/home-hero.jpg);">
-		<div class="contact-form" id="contact-us">
+		<div class="contact-form hidden" id="contact-us" lang="en">
 			<h1>Registration</h1>
 			<form>
 				<input type="text" name="name" placeholder="Name" required>
@@ -103,6 +103,26 @@
 						<option selected="">No</option>
 				</select>
 				<input type="submit" value="SEND">
+			</form>
+			<h1 style="text-align: center;margin-top: 20px;"><i class="fas fa-phone" style="transform: rotate(90deg);margin-right: 10px;"></i> 0115 819 3333</h1>
+		</div>
+		<div class="contact-form hidden" id="contact-us" lang="ar">
+			<h1>التسجيل</h1>
+			<form>
+				<input type="text" name="name" placeholder="اسم" required>
+				<input type="number" name="age" placeholder="عمر" required>
+				<input type="tel" name="telephone" placeholder="رقم الهاتف" required>
+				<label for="data-start" class="narrow-text">حجز من: (dd/mm/yyyy)</label>
+				<input type="text" class="narrow-input" name="data-start" placeholder="تاريخ بدء الحجز" required>
+				<label for="data-end" class="narrow-text">حجز ل: (dd/mm/yyyy)</label>
+				<input type="text" class="narrow-input" name="data-end" placeholder="تاريخ انتهاء الحجز">
+				<textarea name="message" placeholder="تحقيق" required></textarea>
+				<label for="marketing" class="narrow-text" style="width: 300px;margin-top: -2px;line-height: 40px;">هل أنت صحفي أو مندوب مبيعات</label>
+				<select name="marketing" class="narrow-input" style="width: 100px;margin-top: -2px;"">
+						<option>نعم فعلا</option>
+						<option selected="">لا</option>
+				</select>
+				<input type="submit" value="إرسال">
 			</form>
 			<h1 style="text-align: center;margin-top: 20px;"><i class="fas fa-phone" style="transform: rotate(90deg);margin-right: 10px;"></i> 0115 819 3333</h1>
 		</div>
