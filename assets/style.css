@@ -303,6 +303,15 @@ header .mob-nav ul {
     margin-top: 20px;
     padding: 10px;
 }
+@media (max-width: 1300px) {
+	.contact-form {
+		margin-top: 10px;
+	}
+	.contact-form h1 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
 @media (max-width: 1230px) {
 	header img {
 		height: calc(var(--header-height) - 10px);
