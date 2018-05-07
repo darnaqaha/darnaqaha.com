@@ -1,4 +1,4 @@
-.hidden {display: none;}
+.hidden {display: none !important;}
 html {
 	--green: #969D84;
 	--dirty-pink: #E5CCCC;
