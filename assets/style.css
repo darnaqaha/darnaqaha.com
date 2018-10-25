@@ -305,6 +305,7 @@ table, th, td {
 }
 #fb-feed-sml {
 	display: none;
+	margin: 0 auto;
 }
 
 header .mob-nav-open {
