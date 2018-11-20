@@ -400,6 +400,11 @@ header .mob-nav ul {
 	#fb-feed-sml {
 		display: block;
 	}
+	header img {
+		height: 30px;
+	    padding-top: 35px;
+	    padding-bottom: 35px;
+	}
 }
 @media (max-width: 500px) {
 	.contact-form {
