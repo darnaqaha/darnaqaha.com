@@ -4,6 +4,7 @@ html {
 	--dirty-pink: #E5CCCC;
 	--dark-green: #343D17;
 	--text-block: #707070;
+	--lime-light: #DFE7C5;	
 	--header-height: 100px;
 	font-family: 'Arsenal', sans-serif;
 }
@@ -27,7 +28,7 @@ body {
 header {
 	height: var(--header-height);
 	position: fixed;
-	background-color: var(--dirty-pink);
+	background-color: var(--lime-light);
 	width: calc(100% - 16%);
     padding-left: 8%;
     padding-right: 8%;
@@ -36,7 +37,7 @@ header {
 }
 header img {
 	display: block;
-    height: 300px;
+    height: calc( var(--header-height) - 10px );
     position: absolute;
     transition: 1s;
     padding-top: 5px;
@@ -111,17 +112,12 @@ header .mob-nav {
     transform: translateX(100%);
     transition: 0.2s;
 }
-.logo-scrolled {
-	height: calc(var(--header-height) - 10px);
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
 #hero {
     background-position: center;
     background-size: cover;
     height: calc(100vh - 100px);
     padding-top: 100px;
-    border-bottom-color: var(--dirty-pink);
+    border-bottom-color: var(--lime-light);
     border-bottom-width: 15px;
     border-bottom-style: solid;
 }
@@ -167,7 +163,7 @@ header .mob-nav {
 
 .contact-form input[type=submit] {
 	width: 420px;
-	background-color: var(--dirty-pink);
+	background-color: var(--lime-light);
     font-weight: bold;
 }
 
@@ -235,21 +231,20 @@ header .mob-nav {
 }
 
 footer {
-	color: #fff;
+	color: var(--text-block);
 	text-align: center;
 	margin-top: 180px;
 	font-size: 20px;
 }
 
 .footer {
-	background-color: var(--green);
+	background-color: var(--lime-light);
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 .footer img {
-	max-width: 200px;
-	margin-top: -150px;
+	margin-top: 30px;
 	margin-bottom: 30px;
 }
 
@@ -263,7 +258,7 @@ footer {
 }
 
 footer a {
-	color: #fff;
+	color: var(--text-block);
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -278,13 +273,17 @@ footer p {
 }
 
 .copyright {
-	background-color: var(--dirty-pink);
+	background-color: var(--green);
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .copyright p {
 	margin: 0px;
 	font-size: 15px;
+	color: #fff;
+}
+.copyright a {
+	color: #fff;
 }
 li {
 	list-style-type: disc;
@@ -339,15 +338,23 @@ header .mob-nav ul {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
+	header img {
+		height: calc(var(--header-height) - 30px);
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+	header ul a li {
+		margin-left: 0px;
+	}
 }
 @media (max-width: 1230px) {
 	header img {
-		height: calc(var(--header-height) - 10px);
-	    padding-top: 5px;
-	    padding-bottom: 5px;
+		height: calc(var(--header-height) - 50px);
+	    padding-top: 25px;
+	    padding-bottom: 25px;
 	}
 }
-@media (max-width: 930px) {
+@media (max-width: 1100px) {
 	.grid-2-outer {
 		grid-template-columns: 100%;
 	    grid-template-rows: 1fr 1fr;

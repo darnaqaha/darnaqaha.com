@@ -50,16 +50,6 @@ var langSwitcher = function() {
 }
 document.addEventListener('DOMContentLoaded', langSwitcher(), false);
 
-// Header logo changer on scroll
-document.addEventListener("scroll", function() {
-	if ( window.scrollY > 15 ) {
-		document.getElementById('header-logo').classList.add('logo-scrolled');
-	}
-	else {
-		document.getElementById('header-logo').classList.remove('logo-scrolled');
-	}
-} );
-
 // Arabic font to all Arabic texts
 Array.prototype.slice.call(document.querySelectorAll('[lang="ar"]'))
 	.forEach(function(element) {
